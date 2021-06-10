@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <h1>Create An Account</h1>
+    <form>
+        <div class="first-name">
+            <label for="first">First name</label>
+            <input required placeholder="First name" type="text" name="first" id="first">
+        <div>
+            <label for="last">Last name</label>
+            <input required placeholder="Last name" type="text" name="last" id="last">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input required placeholder="Email" type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input required placeholder="User name" type="text" name="username" id="username">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input required placeholder="Password" type="password" name="password" id="password" minlength="10">
+        </div>
+        <div>
+            <label for="birth">Birth date</label>
+            <input required type="date" name="birth" id="birth">
+        </div>
+        <div>
+            <label for="happy">How happy are you?</label>
+            <input required type="range" name="happy" id="happy" min="0" max="10">
+        </div>
+        <div>
+            <label for="color">What is your fav.color?</label>
+            <input required type="color" name="color" id="color">
+        </div>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
